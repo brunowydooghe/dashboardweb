@@ -1,0 +1,171 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/login-backgrounds-1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login-container {
+  width: 1000px;
+  height: 450px;
+  display: flex;
+  border-radius: 15px;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+.background-div {
+  display: flex;
+  align-items: center;
+  background: url(../assets/Images/pexels-photo-1242764.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+h2 {
+  padding: 30px;
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  z-index: 200;
+}
+.inputs-container {
+  background: #fff;
+  height: 100%;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.logo-container {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  background-size: contain !important;
+  background: url(../assets/Images/logoSearch.png) no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.user-label {
+  position: absolute;
+  cursor: text;
+  font-size: 80%;
+  opacity: 1;
+  top: 246px;
+  left: 90px;
+  z-index: 100;
+  line-height: 1;
+  padding: 0 3px;
+  background: #fff;
+  color: #3a3a3ab3;
+}
+.role-label {
+  position: absolute;
+  cursor: text;
+  font-size: 80%;
+  opacity: 1;
+  top: 302px;
+  left: 90px;
+  z-index: 100;
+  background: #fff;
+  line-height: 1;
+  padding: 0 3px;
+  color: #3a3a3ab3;
+}
+.pas-log-label {
+  position: absolute;
+  cursor: text;
+  font-size: 80%;
+  opacity: 1;
+  top: 302px;
+  left: 90px;
+  z-index: 100;
+  background: #fff;
+  line-height: 1;
+  padding: 0 3px;
+  color: #3a3a3ab3;
+}
+.signup-link-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #0072a3;
+}
+.pas-label {
+  position: absolute;
+  cursor: text;
+  font-size: 80%;
+  opacity: 1;
+  top: 358px;
+  left: 90px;
+  z-index: 100;
+  background: #fff;
+  line-height: 1;
+  padding: 0 3px;
+  color: #3a3a3ab3;
+}
+.login-input {
+  border-radius: 2px;
+  background: transparent;
+  border: 1px solid #d7d7d7;
+}
+.login-description {
+  width: 100%;
+  display: flex;
+  color: #3a3a3ab3;
+  padding-left: 70px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+button.ant-btn.ant-btn-primary.login-btn {
+  background-color: #008ecc;
+  border-color: #008ecc;
+  color: #fff;
+  width: 125px;
+  height: 40px;
+  border-radius: 25px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 1px 3px 1px rgba(0, 0, 0, 0.15) !important;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 100;
+}
+button.ant-btn.ant-btn-default.signUp-btn {
+  background-color: #008ecc;
+  border-color: #008ecc;
+  color: #fff;
+  width: 125px;
+  height: 40px;
+  border-radius: 25px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 1px 3px 1px rgba(0, 0, 0, 0.15) !important;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 100;
+}
+button.ant-btn.ant-btn-primary.login-btn:hover {
+  color: #fff;
+  background-color: #0072a3;
+  border-color: #0072a3;
+}
+.login-form-container {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 70px 20px 70px;
+}
+
+@media (max-width: 1001px) {
+  .login-container {
+    width: fit-content !important;
+  }
+}

@@ -1,0 +1,47 @@
+.ant-layout-sider-trigger {
+  background: #0c1427 !important;
+}
+li.ant-menu-item.ant-menu-item-selected {
+  background-color: #b4bac3 !important;
+  height: 50px !important;
+  color: #30323e !important;
+}
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-submenu-title .anticon {
+  font-size: 22px !important;
+}
+li.ant-menu-item:hover {
+  background-color: #b4bac3 !important;
+  height: 50px !important;
+  color: #30323e !important;
+}
+li.ant-menu-item {
+  height: 50px !important;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title
+  > .ant-menu-title-content {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.sidebar .sidebar-logo {
+  padding: 20px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: url(../../assets/Images/logoSearch.png) no-repeat;
+  background-position: center;
+}
